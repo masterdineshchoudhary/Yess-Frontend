@@ -1,0 +1,25 @@
+React > Frontend
+- React is lib/framework which help to build single page app(SPA) using component based structure
+
+component : fuctional, class
+#fuctional
+> Dumb component
+> Mainly use for the purpose of display
+> Cannot maintain the state
+
+#class
+> Logical component
+> use for logics as well as display
+> can maintain the state
+
+state
+> state act as a local var inside the component
+> each component(class) can have its own state
+> we can update the value of state
+> any interaction will happen through state only
+
+props
+> helps to transfer the data between 2 nested component
+> we cannot update the value of props
+parent => child (props)
+child => parent (props with function)
